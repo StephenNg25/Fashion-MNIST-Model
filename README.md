@@ -14,6 +14,7 @@ This project builds a deep learning model to classify images in the Fashion MNIS
     - An array of category labels (e.g., 0, 1, 2) representing the class of each image.
 
 ### 2. Preprocessing
+![Visualized Data](file:///var/folders/rq/mfbdqmzx2mxd3kldmtv7g6t80000gn/T/TemporaryItems/NSIRD_screencaptureui_gzRpKK/Screenshot%202025-01-18%20at%202.44.11%E2%80%AFAM.png)
 - Normalization: Pixel values in the images, initially ranging from 0 to 255, are scaled to a range of 0 to 1. This to improve training stability and ensures faster convergence.
 - Reshaping: The input images, originally in a 2D format (28x28), are prepared for the model by flattening them into a 1D array of 784 pixels. This to make them compatible with the neural network.
 
@@ -32,6 +33,7 @@ This project builds a deep learning model to classify images in the Fashion MNIS
 - Images are visualized during preprocessing to ensure the input data is structured correctly.
 
 ### 4. Neural Network Architecture
+![NN Diagram](https://github.com/StephenNg25/Fashion-MNIST-Model/blob/main/NN%20Diagram.jpg?raw=true)
 The model is constructed using the Keras Sequential API, which allows layers to be added step by step.
 
 - Input Layer:
@@ -85,6 +87,7 @@ After training, the model is tested on unseen validation images:
   - Loss Plot: a graph of training and validation loss helps identify signs of overfitting.
 
 ## 9. Results
+![Result](https://github.com/StephenNg25/Fashion-MNIST-Model/blob/main/Result.png?raw=true)
 - After training, the model achieves:
     - Training Accuracy: ~95.84%
     - Validation Accuracy: ~89.56%
