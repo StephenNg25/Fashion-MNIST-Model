@@ -14,7 +14,7 @@ This project builds a deep learning model to classify images in the Fashion MNIS
     - An array of category labels (e.g., 0, 1, 2) representing the class of each image.
 
 ### 2. Preprocessing
-![Visualized Data](file:///var/folders/rq/mfbdqmzx2mxd3kldmtv7g6t80000gn/T/TemporaryItems/NSIRD_screencaptureui_gzRpKK/Screenshot%202025-01-18%20at%202.44.11%E2%80%AFAM.png)
+![Visualized Data](https://github.com/StephenNg25/Fashion-MNIST-Model/blob/main/28x28%20Image%20with%20visualized%20activated%20neurons%20%20.png?raw=true)
 - Normalization: Pixel values in the images, initially ranging from 0 to 255, are scaled to a range of 0 to 1. This to improve training stability and ensures faster convergence.
 - Reshaping: The input images, originally in a 2D format (28x28), are prepared for the model by flattening them into a 1D array of 784 pixels. This to make them compatible with the neural network.
 
