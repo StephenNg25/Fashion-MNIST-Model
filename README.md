@@ -1,6 +1,6 @@
-# Fashion-MNIST-Classification-Model
+# Neuron Network Model with Fashion MNIST Datset
 
-This project builds a deep learning model to classify images in the Fashion MNIST dataset. The dataset includes grayscale images of clothing items and their categories, such as t-shirts, pants, and shoes. The goal is to train a neural network that accurately predicts the category of a given image.
+This project builds a deep learning model to classify images in the Fashion MNIST dataset using effectively neuron network. The dataset includes grayscale images of clothing items and their categories, such as t-shirts, pants, and shoes. The goal is to train a neural network that accurately predicts the category of a given image.
 
 ## Workflow Breakdown
 
