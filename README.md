@@ -6,18 +6,18 @@ This project builds a deep learning model to classify images in the Fashion MNIS
 
 ### 1. Fetch the Dataset
 
-The Fashion MNIST dataset is fetched using the Keras library.
-The dataset consists of two subsets:
-Training Data: 60,000 images, used for training the model.
-Validation Data: 10,000 images, used for testing the model's accuracy.
-Each subset includes:
-An array of input images, where each image is a 28x28 grayscale pixel grid.
-An array of category labels (e.g., 0, 1, 2) representing the class of each image.
+- The Fashion MNIST dataset is fetched using the Keras library.
+- The dataset consists of two subsets:
+    - Training Data: 60,000 images
+    - Testing Data: 10,000 images
+- Each subset includes:
+    - An array of input images, where each image is a 28x28 grayscale pixel grid.
+    - An array of category labels (e.g., 0, 1, 2) representing the class of each image.
 
 ### 2. Preprocessing
 
-Normalization: Pixel values in the images, initially ranging from 0 to 255, are scaled to a range of 0 to 1. This improves training stability and ensures faster convergence.
-Reshaping: The input images, originally in a 2D format (28x28), are prepared for the model by flattening them into a 1D array of 784 pixels. This makes them compatible with the neural network.
+- Normalization: Pixel values in the images, initially ranging from 0 to 255, are scaled to a range of 0 to 1. This to improve training stability and ensures faster convergence.
+- Reshaping: The input images, originally in a 2D format (28x28), are prepared for the model by flattening them into a 1D array of 784 pixels. This to make them compatible with the neural network.
 
 
 ---
